@@ -1,0 +1,208 @@
+/* header style */
+/* navbar start */
+/* navbar end */
+
+/* intro section style start */
+#home{
+    margin-top: 180px;
+}
+.intro-text h1{
+    font-size: 4.5em;
+    font-weight: 600;
+}
+.intro-text p{
+    width: 60%;
+    color: #646464;
+
+}
+/* intro section style end */
+
+/*WHAT WE PROVIDES START */
+#service{
+    margin-top: 200px;
+}
+.study h6{
+    color: #646464;
+}
+.study h2{
+    font-weight: 500;
+}
+.teacher{
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+    border-radius: 60px 0px;
+    padding: 30px;    
+}
+.teacher-text h5{
+    font-weight: 700;
+}
+.teacher-text p{
+    color: #646464;
+}
+.artificial{
+    padding-top: 30px;  
+    padding-bottom: 30px;
+    padding-left: 60px;  
+    border-radius: 0px 60px;
+    background: #5607C9;
+}
+.artificial-text h5{
+    color: white;
+    font-weight: 700;
+}
+.artificial-text p{
+    color: white;
+    font-weight: 700;
+}
+
+/* WHAT WE PROVIDES END  */
+
+/* study goal start */
+#study-goal{
+    margin-top: 180px;
+}
+.goal-text p{
+    width: 80%;
+}
+.goal-text button{
+    color: white;
+    background: #5607C9;
+    padding: 12px 20px;
+    border-radius: 25px 0px;
+}
+/* study goal end */
+
+/* Centuries Education Revulotion */
+
+.title-20 h2{
+    font-size: 10rem;
+    font-weight: 700;
+}
+.revulotion-text h4{
+    color: #5607C9;
+}
+.revulotion-text button{
+    color: white;
+    background: #5607C9;
+    padding: 12px 20px;
+    border-radius: 25px 0px;
+    margin-top: 10px;
+}
+/* Centuries Education Revulotion */
+
+/* student join */
+#student-join{
+    padding: 100px;
+    margin-top: 150px;
+    background:#5607C9 ;
+}
+.school{
+    background: #FFFFFF;
+    padding: 15px 25px;
+    border-radius: 30px 0;
+}
+.Teacher{
+    background: #FFFFFF;
+    padding: 15px 25px;
+    border-radius: 30px 0;
+}
+.workers{
+    background: #FFFFFF;
+    padding: 15px 25px;
+    border-radius: 30px 0;
+}
+.students{
+    background: #FFFFFF;
+    padding: 15px 25px;
+    border-radius: 30px 0;
+}
+/* student join */
+
+/* TESTIMONIALS */
+.parent-img img{
+    max-width: 100%;
+    border-radius: 30px 0px;
+}
+.parent-text{
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+    border-radius: 70px 0px;
+    padding: 10px 55px;
+}
+/* TESTIMONIALS */
+
+/* LETEST CLASSES  */
+#class{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.cls-btn{
+    border-radius: 25px 0;
+    padding: 12px 25px;
+    color: white;
+    background: #5607C9;
+}
+/* LETEST CLASSES  */
+
+/* contact with us  */
+.contact{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact hr{
+    width: 50%;
+}
+/* contact with us  */
+
+/* footer */
+footer{
+    margin-top: 150px;
+    background: #EEEEEE;
+}
+.fab{
+    color: white;
+}
+.icon-1{
+    background: #0A6FE7;
+    padding: 12px 15px;
+    border-radius: 50%;
+}
+.icon-2{
+    background: #0386FF;
+    padding: 12px;
+    border-radius: 50%;
+}
+.icon-3{
+    background: #DD8686;
+    padding: 12px;
+    border-radius: 50%;
+}
+.icon-4{
+    background: #5093E0;
+    padding: 12px;
+    border-radius: 50%;
+}
+/* footer */
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #home ,#service, #study-goal, #parents-review, #class, #contact, footer{
+        margin-top: 50px;
+    }
+    .revolation{
+        margin-top: 30px;
+    }
+    .study-goal{
+        margin-top: 10px;
+    }
+    .modifie-btn{
+        margin-bottom: 25px;
+    }
+    .class-one{
+        margin-bottom: 20px;
+    }
+  }
